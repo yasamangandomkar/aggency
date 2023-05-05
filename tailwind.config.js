@@ -6,7 +6,11 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        hero: "url('/assets/image/art.jpg')",
+      },
+    },
     colors: {
       white: "#fff",
       dark: "#080e10",

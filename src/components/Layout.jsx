@@ -1,10 +1,12 @@
 import Navbar from "./Navbar"
 
-const Layout = ({ Children }) => {
+const Layout = ({ children }) => {
+
     return (
-        <div className="px-4 md:px-8 lg:px-12">
+        <div className="px-2 md:px-8 lg:px-12 ">
             <Navbar />
-            {Children}
+            <main>{children}</main>
+
         </div>
     )
 }

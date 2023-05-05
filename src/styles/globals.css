@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+h1 {
+  font-size: 38px;
+  background: -webkit-linear-gradient(
+    250deg,
+    rgba(255, 85, 219, 1) 24%,
+    rgba(52, 108, 255, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body {
+  overflow-x: hidden;
+  background-color: #080e10;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -9,4 +24,8 @@
 }
 .text-stroke-3 {
   -webkit-text-stroke: 1px white;
+}
+p,
+span {
+  color: #fff;
 }
