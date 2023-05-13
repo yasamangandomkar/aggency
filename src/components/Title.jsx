@@ -1,9 +1,7 @@
-const Title = ({ caption, title }) => {
+
+const Title = ({ title }) => {
     return (
-        <div>
-            <span className="text-green">{caption}</span>
-            {title}
-        </div>
+        <h1 className="text-center lg:text-3xl font-bold text-lg  py-5">{title}</h1>
     )
 }
 
