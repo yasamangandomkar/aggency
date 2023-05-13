@@ -1,8 +1,11 @@
 {
-  "name": "agency",
+  "homepage": "https://yasamangandomkar.github.io/agency",
+  "name": "aggency",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -20,5 +23,8 @@
     "swiper": "^9.2.4",
     "tailwindcss": "3.3.2",
     "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
